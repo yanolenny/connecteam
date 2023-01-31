@@ -57,5 +57,3 @@ resource "pagerduty_team_membership" "chat_golan_dor" {
   team_id = pagerduty_team.chat.id
   role    = "responder"
 }
-
-
