@@ -1,7 +1,8 @@
 resource "pagerduty_team_membership" "general_nadav_luzzato" { 
   user_id = pagerduty_user.nadav_luzzato.id  
   team_id = pagerduty_team.general.id
-  role    = "responder"}
+  role    = "responder"
+}
 
 resource "pagerduty_team_membership" "time_clock_ariel_nuriel" { 
   user_id = pagerduty_user.ariel_nuriel.id  
