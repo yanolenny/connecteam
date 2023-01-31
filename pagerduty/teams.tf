@@ -1,3 +1,7 @@
+resource "pagerduty_team" "general" {
+  name        = "General"
+}
+
 resource "pagerduty_team" "job_scheduler" {
   name        = "Job scheduler"
 }
